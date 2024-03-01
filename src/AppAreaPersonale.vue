@@ -50,7 +50,7 @@ export default {
     styleCSS(sel) {
       if (sel == this.selezionato) {
         return {
-          'color': '#FFFFFF',
+          'color': '#FFAFFF',
           'background-color': '#0d6efd',
         }
       }
