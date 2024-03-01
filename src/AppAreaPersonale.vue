@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<template style="background-image: url(../public/sfondo.avif)">
+<template>
   <div id="toolBar">
     <h3 style="position: fixed; top: 10px; left: 10px; float: left;">Working span test</h3>
     <div id="prof" class="dropdown" style="float:right;">
@@ -50,7 +50,7 @@ export default {
     styleCSS(sel) {
       if (sel == this.selezionato) {
         return {
-          'color': '#FFAFFF',
+          'color': '#FFFFFF',
           'background-color': '#0d6efd',
         }
       }
